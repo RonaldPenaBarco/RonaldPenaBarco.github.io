@@ -1,0 +1,90 @@
+div {
+    background:DarkSlateGray;
+    padding: 5px;}
+
+img {display:block;
+    margin:auto;
+    width: auto;}
+
+#img1 {
+    display:block;
+    width: 55%;}
+
+#bordes {padding: 0 450px 0 450px;}
+
+#iconos {width: 35%;}
+
+#capitular {
+    float: left;
+    margin: 0 1% 0 0;
+    font-size: 600%;
+    font-family: Arial ultrabold,sans-serif;
+    font-weight: bold;}
+
+#negrita{
+    border-bottom: 1px dotted #999; 
+    text-decoration: none;
+    font-family: Arial ultrabold,sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+}
+        
+
+#subtitulo {padding: 0 450px 0 450px;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 24pt;}
+
+#img2 {
+    display:block;
+    width: 37%;}
+
+h1 { 
+    font-family: times new roman, serif;
+    font-weight: lighter;
+    font-size: 45pt;
+    text-align: center;
+}
+h2 {
+    margin-top: 20px;
+    font-family: times new roman light, serif;
+    font-weight: lighter;
+    font-size: 18pt;
+    text-align: center;
+    color: gray;
+}
+h3 {
+    margin-top: 20px;
+    font-family: times new roman, serif;
+    font-weight: bolder;
+    font-size: 10pt;
+    text-align: center;
+    color: gray;
+}
+h4 {
+    margin: 20px 0px 100px 0px;
+    font-family: times new roman, serif;
+    font-weight: bolder;
+    font-size: 8pt;
+    text-align: center;
+    color: gray;
+   
+}
+p {font-family: Arial light,sans-serif;
+    font-weight: lighter;
+    font-size: 14pt;
+    text-align: left;
+    letter-spacing: 1,2 px;
+    line-height: 1,5 px;} 
+ul {list-style-type: none;
+    font-family: Arial light,sans-serif;
+    font-weight: lighter;
+    font-size: 14pt;
+    text-align: left;
+    letter-spacing: 1,2px;
+    line-height: 1,5;
+    padding-left: 0}
+#pie1 {
+    font-family: Arial bold ,sans-serif;
+    font-size: 8pt;
+    letter-spacing: 1,2 px;}
