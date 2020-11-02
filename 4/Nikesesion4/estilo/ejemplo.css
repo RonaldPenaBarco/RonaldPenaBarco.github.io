@@ -1,0 +1,18 @@
+body {
+    font-family: Helvetica Neue thin , sans-serif; 
+    padding: 50px; 
+}
+
+h1 {
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: gray;
+    font-size: 9pt;
+    letter-spacing: 1px;
+} 
+p {
+    font-size: 14pt;
+} 

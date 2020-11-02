@@ -1,0 +1,16 @@
+body{padding: 30px 100px 30px 100px}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+#ultrathin {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 80px;}
+#futura {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 30px;
+    line-height: 60px;
+}
