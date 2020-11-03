@@ -1,0 +1,23 @@
+body{padding: 30px 100px 30px 100px}
+
+#ultrathin {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 100px;
+}
+#futura {
+    font-family: "futura";
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 60px;
+    color:deepskyblue;
+}
+img{
+    border-radius: 20px;
+    width: 33%;
+    height: auto;
+    filter: saturate(0);
+}
+a:hover img {
+    filter: saturate(1);
+}
