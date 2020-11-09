@@ -1,16 +1,4 @@
-body{padding: 30px 100px 30px 100px}
-
-a:link, a:visited, a:active {
-    text-decoration:none;
-}
-
-#ultrathin {
-    font-family: "Helvetica Neue";
-    font-weight: lighter;
-    font-size: 50px;}
-#futura {
-    font-family: "Helvetica Neue";
-    font-weight: thin;
-    font-size: 25px;
-    line-height: 40px;
+.flex-container {
+    display: flex;
+    flex-direction: row;
 }
