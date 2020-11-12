@@ -1,15 +1,14 @@
-body{padding: 30px 100px 30px 100px}
+#bordes {padding:0px 100px 30px 100px }
 
 #ultrathin {
     font-family: "Helvetica Neue";
     font-weight: lighter;
-    font-size: 100px;
+    font-size: 80px;
 }
 #futura {
     font-family: "futura";
     font-weight: normal;
     font-size: 30px;
-    line-height: 60px;
     color:deepskyblue;
 }
 img{
@@ -23,7 +22,8 @@ a:hover img {
 }
 .flex{
     display:flex;
+    flex:auto;
     flex-wrap: wrap;
     flex-direction:row;
-    justify-content: space-between;:
+    justify-content: space-between;
 }
