@@ -1,29 +1,64 @@
 #bordes {padding:0px 100px 30px 100px }
 
-#ultrathin {
-    font-family: "Helvetica Neue";
-    font-weight: lighter;
-    font-size: 80px;
+#cabecera{
+    background-image: url(imag/pie.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+#logo_cabecera{
+    width: 35%;
+    filter: brightness(80); 
+    box-shadow:none; 
+    text-shadow:2px 2px 5px #999;
 }
 #futura {
-    font-family: "futura";
+    font-family: "Futura";
     font-weight: normal;
-    font-size: 30px;
+    text-align: center;
+    color:gainsboro;
+    font-size: 150px;
+    line-height : 50px;
+}
+#helvetica {
+    font-family: "helvetica neue";
+    font-weight: lighter;
+    font-size: 35px;
     color:deepskyblue;
+    line-height : 20px;
 }
 img{
+    width:400px;
     border-radius: 20px;
-    width: 25em;
     height: auto;
     filter: saturate(0);
+    box-shadow: 2px 2px 5px #999;
 }
 a:hover img {
     filter: saturate(1);
 }
-.flex{
+a {
+    text-decoration:none;
+    color: black;
+    text-align: center;}
+.flex-container{ 
     display:flex;
     flex:auto;
     flex-wrap: wrap;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content:space-between;
+    align-items: stretch;
+}
+#espacio_img {margin: 0px 0px 100px 0px}
+#titulo{
+    font-family: futura,sans-serif;
+    color: darkgray;
+    font-size: 20px;
+    
+}
+#descrip {
+    font-family: helvetica neue,sans-serif;
+    font-weight: lighter;
+    color:dodgerblue;
+    font-size: 20px;
 }
