@@ -3,6 +3,8 @@ body{padding: 30px 100px 30px 100px}
 a:link, a:visited, a:active {
     text-decoration:none;
 }
+a {text-decoration:none;
+color: dodgerblue;}
 
 #ultrathin {
     font-family: "Helvetica Neue";
@@ -11,6 +13,7 @@ a:link, a:visited, a:active {
 #futura {
     font-family: "Helvetica Neue";
     font-weight: lighter;
+    color: gainsboro;
     font-size: 30px;
     line-height: 60px;
 }
