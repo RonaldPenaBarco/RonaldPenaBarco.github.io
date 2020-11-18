@@ -87,6 +87,7 @@ img{
     box-shadow: 2px 2px 10px #999;
 }
 .container:hover .satu {filter: saturate(0)}
+-webvkit-.container:hover .satu {filter: saturate(0)}
 .overlay {
     border-radius: 20px;
     position: absolute;
