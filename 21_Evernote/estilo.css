@@ -1,0 +1,30 @@
+
+header .row {    
+    align-content: center; 
+}
+
+.alinear {
+    display: flex; 
+    align-items: center; 
+    height: 100px;
+    text-align: center;
+}
+a {
+    color: yellowgreen;
+    padding: 20px;
+    font-size: 9pt;
+}
+a:hover {  
+    text-decoration: none; 
+    text-decoration: underline none; 
+    color: darkgrey}
+#botones{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 20px;
+    font-size: 10pt;
+}
+.card {
+    border-style: none;
+}
