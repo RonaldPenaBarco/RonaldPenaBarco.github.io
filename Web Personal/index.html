@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="utf-8">
+    <title>Galería</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+       
+<style type="text/css">
+#logo{
+    margin-top: 20px;
+    width: 40%;
+
+}
+#redes{
+    width: 40%;
+    margin-top: 20px;
+}
+#text{
+    text-align: center;
+    font-family: sans-serif, helvetica,bold;
+    color: white;
+}
+#cookies {
+    background-color: rgba(0, 0, 0, .9);
+    height: 200px;
+    width: 100%;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    font-size: 7pt;
+        }  
+</style>
+   <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                $("#cookies").hide();
+            });
+        });
+
+    </script>
+   
+    </head>
+
+
+<body style="background-color: black">
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-4">
+		</div>
+		<div class="col-md-4">
+			<h3 class="text-center">
+				<img src="imagenes/logo_peque%C3%B1o_blanco.svg" id="logo">
+			</h3> 
+			<a href="index_1.html" style="text-decoration:none"><button type="button" class="btn btn-outline-primary btn-block btn-lg">
+				Restaurante, Ñas Coca!
+			</button></a>
+			<br>
+		</div>
+		<div class="col-md-4">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<img src="imagenes/IMG_5021.jpg" style="width: 100%">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-5">
+		</div>
+		<div class="col-2">
+			<div class="row justify-content-between">
+				<a href="https://www.facebook.com/nascocaalicante">
+				<img src="imagenes/logo_facebook.png" class="rounded mx-auto d-block" alt="..." id="redes"></a>
+				<a href="https://www.instagram.com/nascocaalicante/"><img src="imagenes/logo_intagram.png" class="rounded mx-auto d-block" alt="..." id="redes"></a>
+			</div>
+		</div>
+		<div class="col-5">
+		</div>
+	</div>
+</div>
+
+<div id="cookies">
+            <h4>Esta página web usa cookies</h4>
+        <p>Las cookies de este sitio web se usan para personalizar el contenido y los anuncios, ofrecer funciones de redes sociales y analizar el tráfico. Además, compartimos información sobre el uso que haga del sitio web con nuestros partners de redes sociales, publicidad y análisis web, quienes pueden combinarla con otra información que les haya proporcionado o que hayan recopilado a partir del uso que haya hecho de sus servicios</p>
+         <div class="row justify-content-center">
+        <button style="background-color: darkseagreen">Acepto</button>
+        <button style="background-color: indianred">No Acepto</button>
+    </div>
+    </div>
+</body>
+   
+</html>
